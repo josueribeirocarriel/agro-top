@@ -1,15 +1,105 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página do Agrinho</title>
+    <title>Agro Forte e Sustentável</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <div class="container"></div><img src="img/2016-07-27-ezgif.com-resize-2.gif" width="30%" height="30%" alt="foca nos estudos" >
- <h1>Só falta um trimestre </h1>
- <h2>E a gente está como?</h2>
- <h1>Sedentos pelo saber  </h1>
- <div class="container"></div><img src="img/images.jpeg" width="30%" height="30%" alt="foca nos estudos" >   
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl">🌱</span>
+                <span class="font-bold text-xl text-green-700 tracking-tight">AgroSustentável</span>
+            </div>
+            <nav class="hidden md:flex space-x-8 font-medium text-gray-600">
+                <a href="#inicio" class="hover:text-green-600 transition">Início</a>
+                <a href="#sobre" class="hover:text-green-600 transition">Compromisso</a>
+                <a href="#frases" class="hover:text-green-600 transition">Filosofia</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="relative bg-green-900 text-white py-20 lg:py-32 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <span class="bg-green-700 text-green-100 text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full">O Futuro do Campo</span>
+                <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight leading-none">
+                    Agro Forte, <br><span class="text-green-400">Futuro Sustentável</span>
+                </h1>
+                <p class="text-lg text-green-100 max-w-xl">
+                    A força que alimenta o presente com o respeito que garante o amanhã. Conectando tecnologia, preservação e produtividade.
+                </p>
+                <div class="pt-4">
+                    <a href="#frases" class="bg-green-500 hover:bg-green-400 text-white font-bold py-3 px-6 rounded-lg transition shadow-lg inline-block">
+                        Conheça Nossa Visão
+                    </a>
+                </div>
+            </div>
+            <div class="relative lg:h-full flex justify-center">
+                <div class="rounded-2xl overflow-hidden shadow-2xl border-4 border-white/10 transform hover:scale-[1.02] transition duration-300">
+                    <img src="agro-sustentavel.png" alt="Cenário de Agro Sustentável com tecnologia e preservação" class="w-full h-auto object-cover">
+                </div>
+            </div>
+        </div>
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-green-800/50 via-transparent to-transparent pointer-events-none"></div>
+    </section>
+
+    <section id="frases" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 tracking-tight sm:text-4xl">Nossa Filosofia de Trabalho</h2>
+                <p class="mt-4 text-lg text-gray-500">Cultivamos valores que transformam a produção agrícola e protegem o meio ambiente.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-gray-50 p-8 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="text-3xl mb-4 text-green-600">🌾</div>
+                        <p class="text-xl font-medium text-gray-800 italic leading-relaxed">
+                            "Agro sustentável: a força que alimenta o presente com o respeito que garante o amanhã."
+                        </p>
+                    </div>
+                    <span class="text-xs font-semibold text-green-600 uppercase tracking-wider mt-6 block">Inspiracional</span>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="text-3xl mb-4 text-green-600">🚀</div>
+                        <p class="text-xl font-medium text-gray-800 italic leading-relaxed">
+                            "A produtividade do futuro é verde: alta tecnologia aliada ao respeito ambiental."
+                        </p>
+                    </div>
+                    <span class="text-xs font-semibold text-green-600 uppercase tracking-wider mt-6 block">Inovação</span>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="text-3xl mb-4 text-green-600">🍃</div>
+                        <p class="text-xl font-medium text-gray-800 italic leading-relaxed">
+                            "Alimentando o mundo, protegendo o planeta. Esse é o verdadeiro compromisso do campo."
+                        </p>
+                    </div>
+                    <span class="text-xs font-semibold text-green-600 uppercase tracking-wider mt-6 block">Propósito</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+            <p class="text-sm">
+                &copy; 2026 AgroSustentável. Projeto criado para o portfólio do GitHub.
+            </p>
+            <p class="text-xs text-gray-600">
+                Imagens geradas por IA e interface desenvolvida com Tailwind CSS.
+            </p>
+        </div>
+    </footer>
+
 </body>
 </html>
